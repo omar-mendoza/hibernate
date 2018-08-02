@@ -15,6 +15,7 @@ public class Libro {
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	@Column(name="idlibro")
 	private Long id;
 		
 	@Column(name="titulo") // No es necesario porque las columnas de la tabla se llaman de igual manera
